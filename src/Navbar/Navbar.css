@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto:wght@300&display=swap');
+
+.navBar{
+    height: 10vh;
+    background-color: #212121;
+    border: 3px solid #000;
+    box-shadow: 10px 10px 20px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+}
+.brand{
+    color: aliceblue;
+    font-size: 2rem;
+    border: 2px solid aliceblue;
+    padding: 12px;
+}
+.navbar-ul{
+ width: 35%;
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.navbar-ul{
+    display: flex;
+    align-items:center;
+    height: 100%;
+}
+.navLink{
+    text-decoration: none;
+    margin-inline: 25px;
+    color:aliceblue;
+    font-size: 1.2rem;
+}
+
+.navLink:hover{
+    cursor: pointer;
+    border-bottom: 2px solid aliceblue;
+}
